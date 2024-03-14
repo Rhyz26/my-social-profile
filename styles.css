@@ -32,7 +32,9 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 1rem;
-    background: url("./assets/images/image1.png"),linear-gradient(blue, green);
+    background: url("./assets/images/image1.png"), url("./assets/images/image2.JPG"), linear-gradient(blue, green);
+    background-size: cover;
+    background-blend-mode: multiply;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -44,7 +46,7 @@ img {
 
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     width: 90%;
     text-align: center;
     font-weight: 400;
