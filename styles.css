@@ -1,3 +1,88 @@
-h1{
-    color:red;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+    background: url("./assets/images/image1.png"), linear-gradient(blue, green);
+}
+
+img {
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: hsl(0, 0%, 12%);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 40px;
+    max-width: 100%;
+    padding-left: 40px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 1rem;
+    background: url("./assets/images/image1.png"),linear-gradient(blue, green);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content:hover{
+    transform: scale(0.95);
+
+}
+
+
+
+p {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+p:hover{
+    transform: scale(0.95);
+    color:yellow;
+}
+
+h1 {
+    width: 90%;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    
+    
+}
+a:hover{
+    transform: scale(0.95);
+}
+
+
+
+
+@media (min-width: 375px) {
+    .content {
+        width: 400px;
+    }
+
+    .attribution {
+        margin-left: 500px;
+        margin-right: 400px;
+        width: 400px;
+    }
 }
